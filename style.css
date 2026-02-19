@@ -281,7 +281,9 @@ section.visible {
    КРАСНЫЙ ШАТЁР
    ========================== */
 .shatr {
-  background: var(--burgundy-deep);
+  background:
+    linear-gradient(to bottom, rgba(74,18,25,0.88) 0%, rgba(74,18,25,0.92) 100%),
+    url('photo_2026-02-19_19-36-18.jpg') center/cover no-repeat fixed;
   position: relative;
   overflow: hidden;
 }
